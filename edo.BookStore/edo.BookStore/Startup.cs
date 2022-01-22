@@ -26,11 +26,36 @@ namespace edo.BookStore
                 app.UseDeveloperExceptionPage();
             }
 
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello from my first middleware");
+
+            //    await next();
+
+            //    await context.Response.WriteAsync("Hello from my first middleware response");
+            //});
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello from my second middleware");
+
+            //    await next();
+
+            //    await context.Response.WriteAsync("Hello from my second middleware response");
+            //});
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Hello from my third middleware");
+
+            //    await next();
+            //});
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
+                endpoints.Map("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
                 });
