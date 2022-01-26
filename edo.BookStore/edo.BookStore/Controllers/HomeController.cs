@@ -10,7 +10,7 @@ namespace edo.BookStore.Controllers
     {
         public string Index()
         {
-            return "WebEdo";
+            return "WebApp";
         }
     }
 }
