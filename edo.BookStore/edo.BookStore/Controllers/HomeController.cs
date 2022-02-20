@@ -10,7 +10,7 @@ namespace edo.BookStore.Controllers
     {
         public ViewResult Index()
         {
-            return View("../../TempView/EdoTemp");
+            return View();
         }
 
         public ViewResult AboutUs()
