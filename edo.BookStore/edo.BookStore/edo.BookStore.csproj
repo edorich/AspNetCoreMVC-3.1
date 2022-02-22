@@ -18,10 +18,4 @@
     </Content>
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="MyStaticFiles\dummy.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>

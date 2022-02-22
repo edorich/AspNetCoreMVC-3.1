@@ -56,11 +56,12 @@ namespace edo.BookStore
 
             app.UseStaticFiles();
 
-            app.UseStaticFiles(new StaticFileOptions() 
-            { 
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "MyStaticFiles")),
-                RequestPath = "/MyStaticFiles"
-            });
+            // use my own staticfiles folder //
+            //app.UseStaticFiles(new StaticFileOptions() 
+            //{ 
+            //    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "MyStaticFiles")),
+            //    RequestPath = "/MyStaticFiles"
+            //});
 
             app.UseRouting();
 
