@@ -14,6 +14,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="wwwroot\images\book\book1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\book\book2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\book\book3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\images\logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
